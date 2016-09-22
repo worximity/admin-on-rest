@@ -43,7 +43,7 @@ class Edit extends Component {
     }
 
     render() {
-        const { title, children, id, data, isLoading, resource, hasDelete } = this.props;
+        const { title, children, id, data, isLoading, resource, hasDelete, validation } = this.props;
         const basePath = this.getBasePath();
 
         return (
@@ -59,6 +59,7 @@ class Edit extends Component {
                     resource={resource}
                     basePath={basePath}
                     initialValues={data}
+                    validation={validation}
                 >
                     {children}
                 </RecordForm> : <div>Loading...</div>}
