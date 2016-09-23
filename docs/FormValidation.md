@@ -4,7 +4,7 @@
 
 Validating your forms just consists in adding some `validation` props either to your form components, inputs, or even a mix of both.
 
-Form `validation` props is an object whose keys are the source names of your fields and values are constraints objects (see [Constraints Reference](#constraints-reference) below):
+Form `validation` prop is an object whose keys are the source name of your fields and whose values are constraints objects (see [Constraints Reference](#constraints-reference) below):
 
 ``` js
 <Create
