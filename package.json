@@ -1,6 +1,6 @@
 {
-  "name": "admin-on-rest",
-  "version": "0.5.4",
+  "name": "@worximity/admin-on-rest",
+  "version": "0.6.0",
   "description": "A frontend Framework for building admin applications on top of REST services, using ES6, React and Material UI",
   "files": [
     "*.md",
@@ -15,7 +15,13 @@
   "authors": [
     "François Zaninotto"
   ],
-  "repository": "marmelab/admin-on-rest",
+  "repository": {
+    "type" : "git",
+    "url" : "git@github.com:worximity/admin-on-rest.git"
+  },
+  "publishConfig": {
+    "registry": "https://repo.worximity.net/repository/wx-npm"
+  },
   "homepage": "https://github.com/marmelab/admin-on-rest#readme",
   "bugs": "https://github.com/marmelab/admin-on-rest/issues",
   "license": "MIT",
