@@ -4,6 +4,14 @@ A frontend Framework for building admin applications on top of REST services, us
 
 ![admin-on-rest demo](http://static.marmelab.com/admin-on-rest.gif)
 
+## Build And Publish
+```sh
+make install
+make build
+npm publish
+
+```
+
 ## Installation
 
 Admin-on-rest is available from npm. You can install it (and its required dependencies)
